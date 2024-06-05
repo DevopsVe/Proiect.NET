@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: 
-            cd 'src/Project.NET'
+            cd 'DevopsVe/Proiect.NET'
             dotnet restore
     - name: Build
       run: dotnet build --no-restore
