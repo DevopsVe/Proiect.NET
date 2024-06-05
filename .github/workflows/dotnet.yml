@@ -23,5 +23,5 @@ jobs:
 
     - name: Restore dependencies
       run: |
-        cd src/Project.NET  # Navigate to the project directory
+        cd src/Project.NET/Backend  # Navigate to the project directory
         dotnet restore    # Restore dependencies for the project
